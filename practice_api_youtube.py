@@ -7,8 +7,7 @@ import os
 from googleapiclient.discovery import build
 
 #API key from ENV Var
-api_key = os.environ.get('yt_api_key1')
-api_key = 'AIzaSyBviim_m_-23li4pBbqGKRC1B8jxXahVo0'
+api_key = os.environ.get('yt_api_key1') 
 
 #Building YT API
 service = build('youtube', 'v3', developerKey=api_key)
